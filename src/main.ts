@@ -1,7 +1,6 @@
-import Address from "./domain/entity/adress";
-import Customer from "./domain/entity/customer";
-import Order from "./domain/entity/order";
-import OrderItem from "./domain/entity/order_item";
+import Customer from "./domain/customer/entity/customer";
+import Address from "./domain/customer/value-object/adress";
+
 
 let customer = new Customer("123", "Gabriel Ferrara");
 const address = new Address("Rua dois", 2, "12345-678", "São Paulo");
